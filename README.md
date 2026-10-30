@@ -46,6 +46,42 @@ The goal is simple: **Think smarter. Decide better.**
 | Lucide React | Icons |
 | Motion | UI animations |
 
+## 🚀 Installation & Setup
+
+### Prerequisites
+- Node.js and npm
+- A Google Gemini API key
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/RITOJAPODDAR/TieBreaker.git
+cd TieBreaker
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Configure environment variables
+
+Create a `.env` file in the project root using `.env.example` as a reference.
+
+Add your Gemini API key:
+
+```env
+GEMINI_API_KEY=your_gemini_api_key
+```
+
+**Note:** Keep your API key private. Never commit your `.env` file to GitHub.
+
+### 4. Run the application
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal to access the application.
+
 ## 🎯 Project Objective
 
 To explore how Generative AI can be used beyond traditional question-answering and transformed into an interactive tool for structured thinking and everyday problem-solving.
