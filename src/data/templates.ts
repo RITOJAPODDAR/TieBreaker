@@ -1,0 +1,58 @@
+import { DecisionTemplate } from '../types/decision';
+
+export const DECISION_TEMPLATES: DecisionTemplate[] = [
+  {
+    id: 'career-startup-vs-corp',
+    title: 'Accept Seed-Stage AI Startup Offer vs Stay as Senior Eng at Big Tech',
+    category: 'Career & Ambition',
+    description: 'Weighing equity upside, rapid autonomy, and high risk against stability, top compensation, and predictable hours.',
+    options: ['Join Seed-Stage Startup as Lead', 'Stay as Senior Engineer at Big Tech'],
+    context: '29 years old, 9 months of living expenses saved in emergency fund, no dependents. Feeling slightly plateaued at current firm, but base salary is $210k + RSUs. Startup offer is $150k + 1.2% equity.',
+    userPriorities: 'Accelerated learning curve, career compounding, ownership, but maintaining financial solvency without burnout.',
+  },
+  {
+    id: 'living-buy-vs-rent',
+    title: 'Buy a $650k Urban Condo vs Continue Renting & Maxing Out Index Funds',
+    category: 'Personal Finance & Lifestyle',
+    description: 'Deciding between building home equity and fixed housing costs vs renting flexibility and high liquid market compounding.',
+    options: ['Buy $650k Condo with 15% Down', 'Rent Nice Apartment & Invest Difference'],
+    context: 'Current rent is $2,400/mo. Mortgage + HOA + taxes would total ~$4,100/mo. Planning to stay in the city for at least 4-5 years, but career might offer remote or relocation opportunities.',
+    userPriorities: 'Long-term net worth creation, peace of mind regarding maintenance, location freedom.',
+  },
+  {
+    id: 'tech-stack-rewrite',
+    title: 'Complete Modern Rewrite in Next.js/Tailwind vs Incremental Refactor of Legacy Rails App',
+    category: 'Engineering & Product',
+    description: 'Choosing between a clean slate rebuild for developer velocity and UI speed vs pragmatic step-by-step modernization.',
+    options: ['Full Next.js / Tailwind Rebuild', 'Incremental Rails + Hotwire Refactor'],
+    context: 'Legacy Rails monolith has 5 years of accumulated tech debt and slow test suites, but processes $35k monthly revenue reliably. Team is 3 full-stack engineers with strong React fluency.',
+    userPriorities: 'Feature delivery speed for the next 12 months, avoiding revenue downtime, developer morale.',
+  },
+  {
+    id: 'relocation-hub',
+    title: 'Relocate to London Tech Hub vs Stay in Hometown with Remote Role',
+    category: 'Life & Adventure',
+    description: 'Navigating life stage tradeoffs: international network and cultural vibrancy vs proximity to family and low cost of living.',
+    options: ['Relocate to London', 'Stay in Hometown (Remote)'],
+    context: 'Offered internal transfer to London office with a 15% cost-of-living bump. Friends and family are mostly in hometown. In late 20s and craving world experience.',
+    userPriorities: 'Personal growth, broadening horizons, building global friendships, while not drifting away from family.',
+  },
+  {
+    id: 'purchase-ev-vs-hybrid',
+    title: 'Buy All-Electric Tesla Model Y vs Proven Hybrid SUV (Toyota RAV4)',
+    category: 'Major Purchase',
+    description: 'Evaluating electric vehicle technology, lower operational costs, and tech features against battle-tested hybrid reliability and zero road-trip anxiety.',
+    options: ['Tesla Model Y Long Range', 'Toyota RAV4 Hybrid Limited'],
+    context: 'Daily commute is 32 miles round-trip. Home has garage with 240V outlet capability. Take 3-4 camping and mountain road trips per year.',
+    userPriorities: 'Total 5-year cost of ownership, road-trip convenience, tech features, minimal maintenance headaches.',
+  },
+  {
+    id: 'startup-mvp-timing',
+    title: 'Launch Minimal Barebones MVP Now vs Spend 2 Months Polishing Pro Features',
+    category: 'Business & Strategy',
+    description: 'The classic founder dilemma: early market feedback and embarrassment vs launch polish and enterprise credibility.',
+    options: ['Launch Raw MVP This Week', 'Polish Enterprise Features for 8 Weeks'],
+    context: 'B2B SaaS tool for sales reps. Core workflow works, but settings page is rough, analytics are basic, and billing is via Stripe checkout links rather than an in-app portal.',
+    userPriorities: 'Customer validation, preserving runway, learning what users actually care about before over-engineering.',
+  },
+];
