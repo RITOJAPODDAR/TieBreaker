@@ -62,9 +62,6 @@ It provided hands-on experience with:
 - Interactive UI development
 - Translating real-world problems into AI-powered solutions
 
-## 📸 Screenshots
-
-
 ## 📸 Application Preview
 
 ### 🏠 Homepage — Decision Intake
