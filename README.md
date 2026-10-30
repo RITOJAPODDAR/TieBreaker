@@ -64,7 +64,24 @@ It provided hands-on experience with:
 
 ## 📸 Screenshots
 
-Coming soon!
+
+## 📸 Application Preview
+
+### 🏠 Homepage — Decision Intake
+![The Tiebreaker Homepage](screenshots/Homepage.png)
+
+### ⚖️ Interactive Pros & Cons
+![Pros and Cons](screenshots/Pros&Cons_.png)
+
+### 📊 Weighted Comparison Matrix
+![Comparison Matrix](screenshots/Comparison%20Matrix.png)
+
+### 🎯 Strategic SWOT Analysis
+![SWOT Analysis](screenshots/SWOT.png)
+
+### 🏆 The Final Verdict
+![Final Decision](screenshots/The_Decision.png)
+
 
 ## 🔮 Future Improvements
 
